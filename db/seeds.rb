@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-song = Fave_song.new(title: "drive me crazy", album: "baby one more time", artist: "britney spears", year: "1999")
+song = Song.new(title: "drive me crazy", album: "baby one more time", artist: "britney spears", year: "1999")
 song.save
 
-song = Fave_song.new(title: "hear you me", album: "bleed american", artist: "jimmy eat world", year: "2001")
+song = Song.new(title: "hear you me", album: "bleed american", artist: "jimmy eat world", year: "2001")
 song.save
 
-song = Fave_song.new(title: "wannabe", album: "spice", artist: "spice girls", year: "1996")
+song = Song.new(title: "wannabe", album: "spice", artist: "spice girls", year: "1996")
 song.save

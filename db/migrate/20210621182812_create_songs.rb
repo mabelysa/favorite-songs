@@ -1,6 +1,6 @@
-class CreateFaveSongs < ActiveRecord::Migration[6.1]
+class CreateSongs < ActiveRecord::Migration[6.1]
   def change
-    create_table :fave_songs do |t|
+    create_table :songs do |t|
       t.string :title
       t.string :album
       t.string :artist
